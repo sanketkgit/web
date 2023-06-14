@@ -1,0 +1,115 @@
+
+img{
+    width: 250px;
+    height: 110px;  
+}
+a{
+    color: white;
+}
+.items h1{
+    font-style: oblique;
+    font-size: 40px;
+    color: floralwhite;
+    padding-right: 90px;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding-bottom: 40px;height: 72px;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+.items
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav
+{
+    padding: 10px;
+    color: white;
+}
+.firstpage{
+    background-image: url("./images/india.jfif");
+   height: 500px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: lightblue;
+   opacity: 0.8;
+}
+.firstpage h2 a
+{
+    display: flex;
+    text-align: center;align-items: center;
+    justify-content: center;
+    color: rgb(22, 3, 6);
+}
+.content a:hover
+{
+    color: gold;
+}
+.headings{
+    text-align: center;
+}
+  .fourthpagemain{
+            background-image: radial-gradient(orange,white,green);
+}
+.fifthpage{
+            text-align: center;
+            background-color: deepskyblue;
+            height: 300px;       
+}
+.sixthpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+    background-color:paleturquoise;
+}
+.sixthpage img{
+    width: 280px;
+    height: 200px;
+}
+.secondpage{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+}
+.secondpage h3{
+    color: white;
+}
+.secondpage h4{
+    color: white;
+    float: right;
+    padding-left: 200px;
+}
+.secondpage h5{
+    color: white;
+    float: right;
+    padding-left: 200px;
+}
+ li{
+    list-style: none;
+    color: white;
+}
+.thirdpage
+{
+    background-color: blue;
+    text-align: center;
+    height: 70px;
+}
+.thirdpage h5{
+    color: white;
+    padding-top: 40px;
+    margin-top: 0;
+}
+@media (max-wdth:800px) {
+    body {
+            width: 50%;
+    };
+    
+}
+

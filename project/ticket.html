@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Tickets</title>
+    <link rel="stylesheet" href="./project1.css">
+</head>
+<style>
+    form{
+        
+       
+        background-image: linear-gradient(blue,lightblue,blue);
+        height: 300px;
+        width: 350px;
+    }
+    .div1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .background{
+        background-image: conic-gradient(blue,lightblue,blue);
+    }
+</style>
+<body>
+    <nav>
+        <div class="items">
+            <h1>
+                BCCI
+            </h1>
+        <div class="nav">
+            <a href="./project1.html">HOME</a>
+        </div>
+        <div class="nav">
+            <a href="./ticket.html">TICKETS</a>
+        </div>
+        <div class="nav">
+            <a href="./jersey.html">JERSEY</a>
+        </div>
+        <div class="nav">
+            <a href="./shop.html">SHOP</a>
+        </div>
+        <div class="nav">
+            <a href="./about.html">ABOUT</a>
+        </div>
+        </div>
+    </nav>
+    <div class="background">
+    <fieldset>
+        <legend> TICKET BOOKING </legend>
+        <div class="div1">
+        <form action="" method="post">
+                <div>
+                    <label for="mail"> EMAIL : </label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <br>
+                <div>
+                    <label for="phno">PHONE NO:</label>
+                    <input type="phno" name="phno" id="phn">
+                </div>
+                <br>
+                <div>
+                    <label for="seats"> SELECT STAND</label>
+                   
+                    <select name="drop" id="drop">
+                        <option value="drop">A</option>
+                        <option value="drop">B</option>
+                        <option value="drop">C</option>
+                        <option value="drop">D</option>
+                        <option value="drop">E</option>
+                        <option value="drop">F</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="seats"> SELECT ROW </label>
+                    
+                    <select name="drop" id="drop">
+                        <option value="drop">1</option>
+                        <option value="drop">2</option>
+                        <option value="drop">3</option>
+                        <option value="drop">4</option>
+                        <option value="drop">5</option>
+                        <option value="drop">6</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="date"> SELECT DATE</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <br>
+                <div>
+                        <input type="submit" value="BOOK">
+                    
+                        <input type="submit" value="CANCEL">
+                </div>
+        </form>
+        </div>
+    </fieldset>
+    </div>
+</body>
+</html>
