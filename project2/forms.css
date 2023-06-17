@@ -1,0 +1,94 @@
+/* @font-face{
+    font-family: um;
+    src: url("./Changa/Changa-VariableFont_wght.ttf") format(.ttf);
+} */
+
+body{
+   background-color: black;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h1{
+    font-size: 32px;
+    /* font-family: 'um'; */
+    font-family: 'Anton', sans-serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Tilt Prism', cursive;
+      font-style: italic;  
+    padding-left: 120px;
+    padding-top: 22px;
+    color: rgb(250, 7, 7);
+    animation-name: wiggle;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+    padding-left: 50px;
+    margin-left: 35px;
+}
+.navitem select{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    size: 10px;
+}
+.navitem a:hover{
+    color: rgb(250, 7, 7);
+}
+#logo{
+    height: 110px;
+    width: 200px;
+}
+nav{
+    
+    border: 1px solid black;
+    display: flex;
+    background-color: black;
+    margin: 0px;
+
+}
+.First{
+        background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700592977-1200x750-optimized.jpg");
+        background-size: cover;
+        height: 400px;
+      
+}
+.First h1{
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 280px;
+    font-size :60px;
+    margin-top: 0.5rem;
+}
+.First h1:hover{
+    color: rgb(250, 7, 7);
+}
+.Second{
+   margin-top: 0px;
+   height: 200px;
+   width: 500px;
+}
+@keyframes wiggle {
+    0%
+    {transform: rotateZ(0deg);}
+    50%{
+        transform: rotateZ(360deg);
+    }
+    100%
+    {
+        transform: rotateZ(-10deg);
+    }
+}

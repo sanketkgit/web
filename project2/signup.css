@@ -1,0 +1,66 @@
+body{
+     background-color: black; 
+} 
+img{
+   height: 150px;
+   animation-name: ani1;
+   animation-duration:3s; 
+   position: relative;
+    animation-iteration-count: infinite; 
+    /* animation-timing-function: ease-in; */
+   /* animation-delay: 2s; */
+   animation-direction: alternate-reverse;
+  
+}
+.navbar{
+    height: 110px;
+    display: flex;justify-content: end;
+}
+.signuph1 h4
+{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+.signuph1 h4:hover{
+    color: red;
+}
+.form{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: darkgray;
+}
+#email{
+    margin-left: 28px;
+}
+#password{
+    margin-left: 10px ;
+}
+#phno{
+    margin-left: 5px;
+}
+.submit{
+    text-align: center;
+}
+@keyframes ani1 {
+   0%{
+    right:0px;
+   }
+   50%
+   {
+    transform: rotateZ(360deg);
+   }
+   100%{
+    right:1000px;
+   }
+
+}
+    
+
+
+   
+
