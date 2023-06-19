@@ -1,0 +1,92 @@
+.imagenavbar img{
+    height: 180px;
+    width: 320px;
+}
+.image2navbar img{
+    height: 180px;
+    width: 320px;
+}
+nav{
+    border: 1px solid black;
+    height: 180px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+nav h1{
+    padding-top:50px ;
+    font-size: 35px;
+    font-family: monospace;
+    font-style: italic;
+    color: red;
+}
+.firstpage{
+    background-color: black;
+    
+}
+.firstpage h1{
+    text-align: center;
+    color: orangered;
+}
+.secondpage{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.secondpage h1 {
+    font-size: 100px;
+    color: red;
+}
+.secondpage h3{
+    font-size: 60px;
+    color: red;
+}
+.secondpage h4{
+    font-size: 30px;
+    color: red;
+}
+.secondpage img{
+    padding-top: 40px;
+    height: 300px;
+}
+.thirdpage{
+    text-align: center;
+    background-color: black;
+}
+.thirdpage h1{
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+}
+.thirdpage p{
+    text-align: center;
+    font-size: 30px;
+    color: darkorange;
+}
+.thirdpagecontent {
+        background-color: black;
+        padding-top: 40px;
+        padding-bottom: 30px;
+}
+.thirdpagecontent img{
+    padding-left: 300px;
+}
+.fourthpage{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.fourthpagecontent{
+    text-align: center;
+}
+.fourthpagecontent h1{
+    font-size: 60px;
+    color: red;
+}
+.fourthpagecontent p{
+    padding-top: 20px;
+    color: darkorange;
+    font-size: 25px;
+}
