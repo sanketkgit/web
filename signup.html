@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./project1.css">
+</head>
+<style>
+.form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    color: white;
+}
+.main{
+    border: 1px solid black;
+    height: 900px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(blue,lightblue,blue);
+}
+</style>
+<body>
+    <nav>
+    <div class="items">
+        <h1>
+            TEAM INDIA
+        </h1>
+    <div class="nav">
+        <a href="./project1.html">HOME</a>
+    </div>
+    <div class="nav">
+        <a href="./ticket.html">TICKETS</a>
+    </div>
+    <div class="nav">
+        <a href="./highlights.html">HIGHLIGHTS</a>
+    </div>
+    <div class="nav">
+        <a href="">CONTACT US</a>
+    </div>
+    <div class="nav">
+        <a href="">ABOUT</a>
+    </div>
+    </div>
+    </nav>
+    <main class="main">
+        <div class="form">
+            <fieldset >
+                <legend> SIGN UP</legend>
+                <form action="" method="post">
+                    <div>
+                        <label for="email">EMAIL :</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="name"> NAME :</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="phno">MOBIE NO :</label>
+                        <input type="number" name="phno" id="phno">
+                    </div>
+                    <div>
+                        <label for="password"> PASSWORD :</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div>
+                        <label for="cpassword"> CONFIRM PASSWORD :</label>
+                        <input type="password" name="cpasswrd" id="cpassword">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="SIGNUP">
+                        <input type="submit" value="CANCEL">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </main>
+</body>
+</html>

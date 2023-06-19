@@ -1,0 +1,95 @@
+
+img{
+    width: 250px;
+    height: 110px;  
+}
+a{
+    color: white;
+}
+.items h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: floralwhite;
+    padding-right: 320px;
+}
+.items h1:hover{
+                color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 86);
+    padding-bottom: 40px;height: 72px;
+    
+}
+a:hover{
+    color: darkorange;
+}
+.items
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav
+{
+    padding: 10px;
+    color: white;
+}
+.firstpage{
+    background-image: url("https://w0.peakpx.com/wallpaper/521/931/HD-wallpaper-indian-cricket-team-cricket-dhawan-dhoni-india-kohli-rohit-team-india-virat-wc19.jpg");
+   height: 1500px;
+   width: 1500px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: lightblue;
+   opacity: 0.8;
+}
+.headings{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: blue;
+}
+.fifthpage{
+            display: flex;   
+            justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+.secondpage{
+    background-color: blue;
+    display: flex;
+    height: 100px;
+}
+.secondpage h3{
+    color: white;
+    padding-left: 15px;
+}
+.secondpage h4{
+    color: white;
+    float: right;
+    padding-left: 400px;
+}
+.secondpage h5{
+    color: white;
+    float: right;
+    padding-left: 600px;
+}
+ li{
+    list-style: none;
+    color: white;
+}
+.thirdpage
+{
+    background-color: blue;
+    text-align: center;
+    height: 70px;
+}
+.thirdpage h5{
+    color: white;
+    padding-top: 40px;
+    margin-top: 0;
+}

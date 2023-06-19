@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Tickets</title>
+    <link rel="stylesheet" href="./project1.css">
+</head>
+<style>
+    .items h1{
+        padding-left: 700px;
+    }
+    form{
+        
+       
+        background-image: linear-gradient(blue,lightblue,blue);
+        height: 400px;
+        width: 350px;
+    }
+    .div1{
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+    .background{
+        background-image: conic-gradient(blue,lightblue,blue);
+    }
+    #mail{
+        padding-left: 120px;
+    }
+    #phn{
+        padding-left: 120px;
+    }
+    #drop{
+        padding-left: 230px;
+        text-align: center;
+    }
+    #date{
+        padding-left: 140px;
+    }
+    .submit{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+</style>
+<body>
+    <nav>
+        <div class="items">
+           <marquee behavior="scroll" direction="right"><h1>
+                TEAM INDIA
+            </h1></marquee>
+        <div class="nav">
+            <a href="./project1.html">HOME</a>
+        </div>
+        <div class="nav">
+            <a href="./ticket.html">TICKETS</a>
+        </div>
+        <div class="nav">
+            <a href="./highlights.html">HIGHLIGHTS</a>
+        </div>
+        <div class="nav">
+            <a href="./shop.html">SHOP</a>
+        </div>
+        <div class="nav">
+            <a href="./about.html">ABOUT</a>
+        </div>
+        </div>
+    </nav>
+    <div class="background">
+        <div style="text-align: center; font-size: 50px; font-family: monospace;">BOOK YOUR TICKET NOW!!!!</div>
+        <br>
+    <fieldset>
+        <div class="div1">
+        <form action="" method="post">
+                <div>
+                    <label for="mail"> EMAIL : </label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <br>
+                <div>
+                    <label for="phno">PHONE NO:</label>
+                    <input type="phno" name="phno" id="phn">
+                </div>
+                <br>
+                <div>
+                    <label for="seats"> SELECT STAND</label>
+                    <select name="drop" id="drop">
+                        <option value="drop">A</option>
+                        <option value="drop">B</option>
+                        <option value="drop">C</option>
+                        <option value="drop">D</option>
+                        <option value="drop">E</option>
+                        <option value="drop">F</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="seats"> SELECT ROW </label>
+                    
+                    <select name="drop" id="drop">
+                        <option value="drop">1</option>
+                        <option value="drop">2</option>
+                        <option value="drop">3</option>
+                        <option value="drop">4</option>
+                        <option value="drop">5</option>
+                        <option value="drop">6</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="date"> SELECT DATE</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <br>
+                <div class="submit">
+                    <div><input type="submit" value="BOOK"></div>
+                    <div><input type="submit" value="CANCEL"></div>
+                </div>
+        </form>
+        </div>
+    </fieldset>
+    </div>
+</body>
+</html>
